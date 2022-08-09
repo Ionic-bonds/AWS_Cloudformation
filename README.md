@@ -1,12 +1,12 @@
 # GovTech_GIG
 
-Created and deployed a three-tiered Web Application (WordPress ; not configured) that is highly available and scalable. The application will be running on ec2 instance, a mock database using Aurora with Read and Write instance, and a file server. It will be deployed across two AZs and a load balancer is used to distribute the traffic flow. Auto scaling group have also been configured to scale in/out according to the user traffic flow. 
+Created and deployed a three-tiered Web Application (WordPress) that is highly available and scalable. The application will be running on ec2 instance, a mock database using Aurora with Read and Write instance, and a file server. It will be deployed across two AZs and a load balancer is used to distribute the traffic flow. Auto scaling group have also been configured to scale in/out according to the user traffic flow. 
 
 ## Assumptions made:
 
 1. "The infrastructure must be provisioned on AWS automatically without manual intervention" ; I presume that I am required to use AWS Cloudformation to provisioned the infrastructure.
 2. "The design should be based on best practices with security in mind"; I presume that I will need to have multi-tiered subnet (Public & Private Subnet), with Application EC2 instance and Database instance to be provisioned in private subnet.
-3. "Candidate can propose any type of web application"; I presume that the web application may not need to be a working one. 
+3. "Candidate can propose any type of web application"; I have deployed a wordpress website. 
 
 
 ## Architecture Diagram
