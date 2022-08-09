@@ -2,6 +2,8 @@
 
 Created and deployed a three-tiered Web Application (WordPress) that is highly available and scalable. The application will be running on ec2 instance, a mock database using Aurora with Read and Write instance, and a file server. It will be deployed across two AZs and a load balancer is used to distribute the traffic flow. Auto scaling group have also been configured to scale in/out according to the user traffic flow. 
 
+You will need to start your WAMP for this project
+
 ## Assumptions made:
 
 1. "The infrastructure must be provisioned on AWS automatically without manual intervention" ; I presume that I am required to use AWS Cloudformation to provisioned the infrastructure.
