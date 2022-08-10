@@ -25,3 +25,8 @@ You will need to start your WAMP for this project
 5. Elasticache / Memcached - to decrease data access latency, increase throughput, and ease the load off the backend systems
 6. Elastic File System - For cost-optimize file storage in AWS
 7. Aurora Database - For database
+
+
+### Video Deployment
+
+[GovTech_GIG_AWS.webm](https://user-images.githubusercontent.com/90443576/183982759-2e460fe7-e942-4cc0-8d8f-bc195002b665.webm)
