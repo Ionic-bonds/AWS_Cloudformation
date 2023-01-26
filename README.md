@@ -1,4 +1,4 @@
-# GovTech_GIG
+# Three-Tier Web Application 
 
 Created and deployed a three-tiered Web Application (WordPress) that is highly available and scalable. The application will be running on ec2 instance, a mock database using Aurora with Read and Write instance, and a file server. It will be deployed across two AZs and a load balancer is used to distribute the traffic flow. Auto scaling group have also been configured to scale in/out according to the user traffic flow. 
 
