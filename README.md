@@ -29,4 +29,4 @@ You will need to start your WAMP for this project
 
 ### Video Deployment
 
-[GovTech_GIG_AWS.webm](https://user-images.githubusercontent.com/90443576/183982759-2e460fe7-e942-4cc0-8d8f-bc195002b665.webm)
+[AWS_Cloudformation.webm](https://user-images.githubusercontent.com/90443576/183982759-2e460fe7-e942-4cc0-8d8f-bc195002b665.webm)
