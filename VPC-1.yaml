@@ -87,19 +87,19 @@ Resources:
           Value: !Sub ${EnvironmentName} Public Subnet A (AZ1)
         - Key: AppName
           Value: !Join [ '', [ 'ha-web-app' ] ]          
-#Configure Public Subnet B
-  PublicSubnetB:
-    Type: AWS::EC2::Subnet
-    Properties:
-      VpcId: !Ref VPC
-      AvailabilityZone: !Select [ 1, !GetAZs  '' ]
-      CidrBlock: !Ref PublicSubnetBCIDR
-      MapPublicIpOnLaunch: true
-      Tags:
-        - Key: Name
-          Value: !Sub ${EnvironmentName} Public Subnet B (AZ2)
-        - Key: AppName
-          Value: !Join [ '', [ 'ha-web-app' ] ]          
+# #Configure Public Subnet B
+#   PublicSubnetB:
+#     Type: AWS::EC2::Subnet
+#     Properties:
+#       VpcId: !Ref VPC
+#       AvailabilityZone: !Select [ 1, !GetAZs  '' ]
+#       CidrBlock: !Ref PublicSubnetBCIDR
+#       MapPublicIpOnLaunch: true
+#       Tags:
+#         - Key: Name
+#           Value: !Sub ${EnvironmentName} Public Subnet B (AZ2)
+#         - Key: AppName
+#           Value: !Join [ '', [ 'ha-web-app' ] ]          
 #Configure App Subnet A
   AppSubnetA:
     Type: AWS::EC2::Subnet
